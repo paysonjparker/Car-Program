@@ -1,7 +1,8 @@
 /**
  * This is the Car base class. It is an abstract class, so it can not be instantiated that implements the CarInterface.
  * It is abstract because it only needs to be used as a base class and does not need 
- * to be instantiated.
+ * to be instantiated. The Car class also implements CarInterface so that the Car class 
+ * is forced to implement each method in the interface.
  * @author paysonparker
  * 10/13/2021
  */

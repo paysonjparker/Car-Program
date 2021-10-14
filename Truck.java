@@ -1,6 +1,7 @@
 
 /**
- * This is the Truck class, which extends the car class. I overrode the 
+ * This is the Truck class, which extends the car class. This is an example of inheritance 
+ * and shows an "IS-A" realtionship between Truck and Car. I overrode the 
  * honk() method from the car class to give the Truck its own special behavior.
  * @author paysonparker
  * 10/13/2021

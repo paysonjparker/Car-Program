@@ -1,6 +1,7 @@
 
 /**
- * This is the Sedan class, which extends the car class. I overrode the 
+ * This is the Sedan class, which extends the car class. This is an example of inheritance 
+ * and shows an "IS-A" relationship between Sedan and Car. I overrode the 
  * honk() method from the car class to give the Sedan its own special behavior.
  * @author paysonparker
  * 10/13/2021
