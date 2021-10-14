@@ -8,7 +8,7 @@
  */
 public abstract class Car implements CarInterface{
 	
-	private Boolean isRunning = false; //car is initialized not running
+	private boolean isRunning = false; //car is initialized not running
 	private int speed; //car's speed
 	final int maxSpeed = 60; //max speed
 	private Engine carEngine; //car engine
