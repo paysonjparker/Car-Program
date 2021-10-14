@@ -6,8 +6,8 @@
 public class Tire {
 
 	private int tirePressure;
-	private final int maxTirePressure = 40;
-	private final int minTirePressure = 0;
+	private final int MAX_PRESSURE = 40;
+	private final int MIN_PRESSURE = 0;
 	
 	/**
 	 * Creates a new Tire object and initializes the tire's air pressure.
@@ -30,9 +30,9 @@ public class Tire {
 	 */
 	public void changeTirePressure(int amount) {
 		tirePressure += amount;
-		if(tirePressure < minTirePressure) {
+		if(tirePressure < MIN_PRESSURE) {
 			tirePressure = 0;
-		} if(tirePressure > maxTirePressure) {
+		} if(tirePressure > MAX_PRESSURE) {
 			tirePressure = 40;
 		}
 	}
