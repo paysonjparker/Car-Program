@@ -10,7 +10,7 @@ public abstract class Car implements CarInterface{
 	
 	private boolean isRunning = false; //car is initialized not running
 	private int speed; //car's speed
-	final int maxSpeed = 60; //max speed
+	private final int maxSpeed = 60; //max speed
 	private Engine carEngine; //car engine
 	private Tire[] carTires; //array length 4 storing each car tire
 	private String carName; //car's name
