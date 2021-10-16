@@ -6,3 +6,4 @@ Sedan and Truck, that use inheritance and extend the Car class. Because the Car 
 a new Car. Instead, they will have to instantiate either a new Sedan or a new Truck, which both share the same characteristics and 
 behaviors as the Car class, except for their own unique honk() method. Each Car object, whether it be a Sedan or Truck, contains 1 Engine and 4 Tires.
 To keep track of each Tire on the car, I created an array of length 4 and stored a Tire object into each index of the array.
+[UML Class Diagram.pdf](https://github.com/paysonjparker/Car-Program/files/7358337/UML.Class.Diagram.pdf)
