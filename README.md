@@ -1,6 +1,9 @@
 # Car-Program
 This program models my knowledge of the core Obeject-Oriented Programming principles: abstraction, encapsulation, interfaces, and polymorphism. 
 
+# UML Class Diagram: 
+![UML.Class.Diagram.pdf](https://github.com/paysonjparker/Car-Program/files/7358340/UML.Class.Diagram.pdf)
+
 # Abstraction:
 * I used one abtract class in this program, the Car base class.
 * The abstract Car class will not allow users to create an instance of it, rather it will force them to create either a new Sedan or Truck object.
@@ -16,6 +19,3 @@ Sedan and Truck, that use inheritance and extend the Car class. Because the Car 
 a new Car. Instead, they will have to instantiate either a new Sedan or a new Truck, which both share the same characteristics and 
 behaviors as the Car class, except for their own unique honk() method. Each Car object, whether it be a Sedan or Truck, contains 1 Engine and 4 Tires.
 To keep track of each Tire on the car, I created an array of length 4 and stored a Tire object into each index of the array.
-
-**UML Class Diagram:**
-![UML.Class.Diagram.pdf](https://github.com/paysonjparker/Car-Program/files/7358340/UML.Class.Diagram.pdf)
