@@ -13,6 +13,7 @@ This program models my knowledge of the core Obeject-Oriented Programming princi
 
 # Encapsulation
 * Encapsulation is a way to use class variables with class methods as a single unit.
+* 
 In this program, I created an abstract Car class that implements a Car Interface and serves as the base class for other car objects.
 The Car Interface forces the Car class to provide each one of the methods inside the Interface. In this case, I created two classes, 
 Sedan and Truck, that use inheritance and extend the Car class. Because the Car class is abstract, users will not be able to instantiate 
