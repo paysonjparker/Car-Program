@@ -11,22 +11,20 @@ public class Driver {
 	 * @param args args
 	 */
 	public static void main(String[] args) {
+		Car[] cars = new Car[2]; //array of cars
 		Sedan sedan = new Sedan("Honda Accord", 15000);
 		Truck truck = new Truck("Ford F-150", 25000);
-		//run the sedan
-		sedan.inflateTires();
-		sedan.start();
-		sedan.accelerate(15);
-		sedan.honk();
-		sedan.accelerate(-10);
-		sedan.stop();
-		//run the truck
-		truck.inflateTires();
-		truck.start();
-		truck.accelerate(20);
-		truck.honk();
-		truck.accelerate(-15);
-		truck.stop();
+		cars[0] = sedan;
+		cars[1] = truck;
+		//runs the methods of each car
+		for (Car car : cars){
+			car.inflateTires();
+			car.start();
+			car.accelerate(15);
+			car.honk();
+			car.accelerate(-10);
+			car.stop();
+		}
 	}
 
 }
