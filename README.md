@@ -32,4 +32,9 @@ To keep track of each Tire on the car, I created an array of length 4 and stored
 # Polymorphism
 * By using polymorphism in this program, I am giving classes and variables the ability to take on multiple forms.
   * For example, a Sedan and Truck object are also Car objects, but calling them either Sedan or Truck is much more specific than just calling them a Car.
-* Another way polymorphism is used in this program is 
+* Another way polymorphism is used in this program is the array of cars in the Driver class.
+  * I created an array of type Car, but I was able to store a Sedan and Truck object inside that array because of polymorphism.
+  * By making the Sedan and Truck classes a subclass of the Car class, we can then store them as a Car object.
+* Polymorphism can also be seen in the honk() methods of each different type of Car. Each of the Car, Sedan, and Truck classes have overridden honk() methods so you can differentiate them from each other.
+  * For example, the Car's honk() method prints, "Beeeepppp," the Sedan's honk() method prints, "BEEP BEEP," and the Truck's honk() method prints, "HOOONNKKKKK."
+  * All of the honk methods have the same name and parameters, but perform different versions of a similar task.
