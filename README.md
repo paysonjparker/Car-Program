@@ -13,7 +13,18 @@ This program models my knowledge of the core Obeject-Oriented Programming princi
 
 # Encapsulation
 * Encapsulation is a way to use class variables with class methods as a single unit.
-* 
+* I used encapsulation in this program, by making variables private to make as many pieces of the program hidden as possible.
+* By using encapsulation, this program will be much esaier to update in the future if needed.
+
+# Interfaces
+* I used the Car Interface in this program to force the Car base class to implement four different methods, start(), stop(), accelerate(int), and honk().
+* Interfaces define a contract that forces a class to implement each method in the interface, otherwise the code will not compile. They act sort of like a blueprint for a class.
+* The Car Interface helps to promote code reusability in this program.
+
+# Polymorphism
+*
+
+
 In this program, I created an abstract Car class that implements a Car Interface and serves as the base class for other car objects.
 The Car Interface forces the Car class to provide each one of the methods inside the Interface. In this case, I created two classes, 
 Sedan and Truck, that use inheritance and extend the Car class. Because the Car class is abstract, users will not be able to instantiate 
