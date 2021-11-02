@@ -10,7 +10,7 @@ behaviors as the Car class, except for their own unique honk() method. Each Car 
 To keep track of each Tire on the car, I created an array of length 4 and stored a Tire object into each index of the array.
 
 # UML Class Diagram: 
-![UML Diagram Car.pdf](https://github.com/paysonjparker/Car-Program/files/7456906/UML.Diagram.Car.pdf)
+![Car UML drawio](https://user-images.githubusercontent.com/90354190/139887078-9717ebe9-d42b-47c9-b2dc-7eceb9692a9e.png)
 
 # Abstraction:
 * I used one abtract class in this program, the Car base class.
