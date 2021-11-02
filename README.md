@@ -30,4 +30,6 @@ To keep track of each Tire on the car, I created an array of length 4 and stored
 * The Car Interface helps to promote code reusability in this program.
 
 # Polymorphism
-*
+* By using polymorphism in this program, I am giving classes and variables the ability to take on multiple forms.
+  * djsdh
+*  
