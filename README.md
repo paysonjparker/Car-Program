@@ -2,7 +2,7 @@
 This program models my knowledge of the core Obeject-Oriented Programming principles: abstraction, encapsulation, interfaces, and polymorphism. 
 
 # UML Class Diagram: 
-![UML.Class.Diagram.pdf](https://github.com/paysonjparker/Car-Program/files/7358340/UML.Class.Diagram.pdf)
+![UML Diagram Car.pdf](https://github.com/paysonjparker/Car-Program/files/7456906/UML.Diagram.Car.pdf)
 
 # Abstraction:
 * I used one abtract class in this program, the Car base class.
