@@ -1,7 +1,7 @@
 # Car-Program
 This program models my knowledge of the core Obeject-Oriented Programming principles: abstraction, encapsulation, interfaces, and polymorphism. 
 
-# Summary
+# Summary:
 In this program, I created an abstract Car class that implements a Car Interface and serves as the base class for other car objects.
 The Car Interface forces the Car class to provide each one of the methods inside the Interface. In this case, I created two classes, 
 Sedan and Truck, that use inheritance and extend the Car class. Because the Car class is abstract, users will not be able to instantiate 
