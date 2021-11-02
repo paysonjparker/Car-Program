@@ -31,5 +31,5 @@ To keep track of each Tire on the car, I created an array of length 4 and stored
 
 # Polymorphism
 * By using polymorphism in this program, I am giving classes and variables the ability to take on multiple forms.
-  * djsdh
-*  
+  * For example, a Sedan and Truck object are also Car objects, but calling them either Sedan or Truck is much more specific than just calling them a Car.
+* Another way polymorphism is used in this program is 
